@@ -1,0 +1,150 @@
+/* .hero-section-wrapper {
+  position: relative;
+} */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.we-are {
+  font-size: 120px;
+  margin-top: 76.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143px;
+}
+
+.hero-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-number {
+  margin-top: 65px;
+  width: 223px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #3051ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.vets {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: -0.02em;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clinic-info {
+  display: flex;
+  position: relative;
+}
+
+.clinic-description {
+  margin-top: 160px;
+  margin-left: 16px;
+}
+.clinic-description p {
+  width: 300px;
+  height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.services-text {
+  margin-right: 10px;
+}
+
+.ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #183dff;
+  border-radius: 50%;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-button img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 3px;
+  margin-right: 4px;
+}
+.arrow-button {
+  position: relative;
+  background-color: white;
+  color: #183dff;
+  width: 157px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.clinic-description-button {
+  margin-top: 8px;
+}
+
+.dog img {
+  margin-top: 30px;
+}
+.dog p {
+  width: 265px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.dog-cat-info {
+  display: flex;
+}
+
+.cat-button {
+  margin-top: 16px;
+}
+
+.dog {
+  margin-right: 24px;
+}
+
+.dog-cat-info {
+  margin-left: 114px;
+}
+
+.address-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 450px;
+  height: 58px;
+  border-radius: 16px;
+  background-color: #3051ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}

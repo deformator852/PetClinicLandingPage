@@ -1,0 +1,54 @@
+.navigation {
+  display: flex;
+}
+
+.logo {
+  margin-top: 68px;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  margin-top: 70.5px;
+}
+
+.nav-item {
+  margin-right: 24px;
+  color: #aebbff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.nav-item:first-child {
+  margin-left: 32px;
+}
+
+.header-buttons {
+  margin-left: 244px;
+  margin-top: 60.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.questionnaire-button {
+  width: 176px;
+  border: 1px solid #ffffff;
+}
+.free-call-button {
+  background-color: white;
+  color: #183dff;
+  font-size: 16px;
+  width: 135px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about-us {
+  color: #ffffff;
+  white-space: nowrap;
+}
