@@ -5,6 +5,7 @@ import arrow from "../img/arrow.png";
 import catImage2 from "../img/CatImage-2.png";
 import phone from "../img/phone.png";
 import mapPin from "../img/map-pin.png";
+import ArrowButton from "./ArrowButton";
 function HeroSection() {
   return (
     <div className="hero-section">
@@ -25,12 +26,7 @@ function HeroSection() {
             Our veterinary clinic is a compassionate and skilled facility
             dedicated to providing high-quality medical care for pets.
           </p>
-          <div className="button arrow-button clinic-description-button">
-            <div className="services-text">Services</div>
-            <div className="ball">
-              <img className="symbol-arrow" src={arrow} />
-            </div>
-          </div>
+          <ArrowButton nameClass="button arrow-button clinic-description-button" />
         </div>
         <div className="dog-cat-info">
           <div className="dog">
@@ -42,12 +38,7 @@ function HeroSection() {
           </div>
           <div className="cat">
             <img src={catImage2} />
-            <div className="button arrow-button cat-button">
-              <div className="services-text">Reviews</div>
-              <div className="ball">
-                <img className="symbol-arrow" src={arrow} />
-              </div>
-            </div>
+            <ArrowButton nameClass="button arrow-button clinic-description-button" />
           </div>
         </div>
         <div className="address-container">

@@ -148,3 +148,181 @@
   line-height: 24px;
   letter-spacing: 0.01em;
 }
+
+.services-section {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 48px;
+  width: 1272px;
+  height: 1433px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.services-section-header {
+  margin-top: 51px;
+  margin-bottom: 322px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  width: 882px;
+  text-align: center;
+}
+
+.card {
+  width: 392px;
+  height: 217px;
+  margin-right: 24px;
+  background-color: #183dff;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+.cards-1,
+.cards-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-title {
+  margin-top: 56px;
+  margin-bottom: 322px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.card {
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 232px;
+}
+
+.card-image {
+  position: absolute;
+  bottom: 200px;
+  z-index: 1;
+}
+
+.card-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 20px;
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  width: 344px;
+  height: 72px;
+}
+
+.view-details-button {
+  color: white;
+  width: 344px;
+  height: 44px;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors-section-header {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  width: 734px;
+}
+
+.doctors-section {
+  width: 1272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.doctor-card {
+  position: relative;
+  width: 1272px;
+  height: 587px;
+  background-color: #3051ff;
+  border-radius: 24px;
+  display: flex;
+}
+
+.doctor-card p {
+  width: 556px;
+  height: 128px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 48px;
+  margin-left: 40px;
+  margin-bottom: 223px;
+}
+
+.doctors-list {
+  margin-left: 40px;
+}
+
+.doctors-list li {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.doctors {
+  display: flex;
+  position: relative;
+}
+
+.women {
+  position: absolute;
+  right: 0;
+}
+
+.women img {
+  border-radius: 24px;
+}
+
+.doctor-services-button {
+  position: absolute;
+  right: 0;
+  bottom: 13px;
+}
+
+.doctor-view-all {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
