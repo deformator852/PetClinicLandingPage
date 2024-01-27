@@ -84,6 +84,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .arrow-button img {
   position: absolute;
   display: flex;
@@ -325,4 +326,146 @@
   position: absolute;
   top: 40px;
   right: 40px;
+}
+
+.equipment-section-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: 590px;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.equipment-section-wrapper {
+  width: 1272px;
+  display: flex;
+}
+
+.international-quality-card {
+  background-color: #3051ff;
+  width: 624px;
+  height: 181px;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  position: relative;
+}
+
+.international-quality-card p:first-child {
+  padding-top: 24px;
+  margin-left: 22px;
+  width: 475px;
+}
+
+.international-quality-card p:last-child {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  color: #aebbff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.changed-ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 32px;
+  right: 32px;
+}
+
+.all-equipment-containers {
+  display: flex;
+  margin-top: 24px;
+}
+
+.all-equipment {
+  position: relative;
+  width: 300px;
+  height: 181px;
+  border-radius: 16px;
+  border: 1px solid white;
+  margin-right: 24px;
+}
+
+.all-equipment p {
+  width: 258px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-left: 21px;
+}
+
+.custom-ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 24px;
+  right: 18px;
+}
+
+.equipment-image img {
+  border-radius: 16px;
+}
+
+.equipment-second-container {
+  margin-top: 328px;
+  margin-left: 22px;
+}
+
+.equipment-second-container-image {
+  border-radius: 16px;
+}
+
+.equipment-second-container-description {
+  width: 624px;
+  height: 181px;
+  background-color: #3051ff;
+  border-radius: 16px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.equipment-second-container-description p:first-child {
+  padding-top: 24px;
+  margin-left: 22px;
+  width: 475px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.equipment-second-container-description p:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #aebbff;
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
 }
