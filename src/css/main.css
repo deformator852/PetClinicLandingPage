@@ -469,3 +469,135 @@
   right: 24px;
   bottom: 16px;
 }
+
+.charity-section {
+  width: 1272px;
+}
+
+.charity-section__header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  width: 697px;
+  margin-bottom: 40px;
+}
+
+.charity-section__container:first-child {
+  margin-top: 160px;
+}
+
+.charity-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.charity-section__paragraph {
+  width: 628px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.charity-section__container {
+  display: flex;
+}
+
+.line {
+  height: 136px;
+  width: 2px;
+  background-color: white;
+}
+
+.charity-section__wrapper:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.charity-section__subelement-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.charity-section__subelement-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.line {
+  margin-right: 16px;
+}
+.line-second {
+  margin-left: 121px;
+}
+
+.charity-section__block {
+  background-color: #3051ff;
+  height: 136px;
+  border-radius: 16px;
+  margin-right: 24px;
+  width: 300px;
+  height: 136px;
+}
+
+.charity-section__container_second {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.charity-section__container_second_paragraph {
+  width: 300px;
+  height: 136px;
+}
+.charity-section__container_second_paragraph p {
+  width: 190px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.charity-section__block p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #aebbff;
+}
+
+.charity-section__block {
+  display: flex;
+  justify-content: center;
+}
+.charity-section__block div {
+  display: flex;
+  align-items: center;
+}
+
+.charity-section__block_contacts_us {
+  position: relative;
+  width: 300px;
+  height: 136px;
+  border: 1px solid white;
+  border-radius: 16px;
+}
+
+.charity-section__block_contacts_us p {
+  width: 190px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
