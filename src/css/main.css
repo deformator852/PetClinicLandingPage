@@ -601,3 +601,156 @@
   margin-top: 24px;
   margin-left: 24px;
 }
+
+.reviews-section__block {
+  height: 216px;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.reviews-section__header {
+  margin-top: 160px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  margin-bottom: 37px;
+}
+
+.reviews-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-section__min-block {
+  width: 572px;
+}
+
+.reviews-section__max-block {
+  width: 676px;
+}
+
+.reviews-section__container__wrapper {
+  display: flex;
+}
+
+.reviews-section__block img {
+  margin-top: 27px;
+  margin-bottom: 10px;
+}
+
+.reviews-section__block img,
+.reviews-section__block p {
+  margin-left: 12px;
+}
+
+.reviews-section__container__wrapper:first-child {
+  margin-bottom: 28px;
+}
+
+.form-section {
+  position: relative;
+  display: flex;
+  margin-top: 160px;
+  width: 1272px;
+  height: 587px;
+  background-color: #3051ff;
+  border-radius: 24px;
+}
+
+.form-section__block:last-child {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  width: 636px;
+  height: 587px;
+  border-radius: 24px;
+}
+
+.form-section__block__first_paragraph {
+  margin-top: 40px;
+  width: 556px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+
+.form-section__block {
+  margin-left: 40px;
+}
+
+.form-section__block__second_paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  margin-bottom: 275px;
+}
+
+.form-section__block__third_paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.vet-email {
+  position: relative;
+  width: 386px;
+}
+
+.form-section__block__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-section__block__form_input {
+  margin-bottom: 32px;
+  width: 556px;
+  height: 56px;
+  border: none;
+  border-bottom: 1px solid #183dff;
+  outline: none;
+  font-size: 22px;
+}
+
+.form-section__block__form_input:first-child {
+  margin-top: 90px;
+}
+
+.form-section__block__form__send-button {
+  position: absolute;
+  width: 129px;
+  height: 48px;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #183dff;
+  border: 1px solid #183dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 40px;
+  left: 40px;
+}
+
+.form-section__block__form__send-button p {
+  margin-right: 12px;
+}
